@@ -1,0 +1,84 @@
+.user-block {
+  display: flex;
+  margin-top: 8px;
+}
+
+.user-block__login {
+  padding-left: 25px;
+  margin-right: 65px;
+}
+
+.user-block__login-link {
+  font-family: "Proxima Nova Condensed", sans-serif;
+  font-size: 15px;
+  line-height: 18px;
+  font-weight: 600;
+  color: #1f1f1f;
+  text-decoration: none;
+  border-bottom: 1px dashed #1f1f1f;
+  position: relative;
+}
+
+.user-block__login-link::before {
+  position: absolute;
+  content: "";
+  width: 14px;
+  height: 15px;
+  top: 3px;
+  left: -25px;
+  background: url("../img/icon-login.png") 50% 50% no-repeat;
+}
+
+.user-block__login-link:hover {
+  opacity: 0.7;
+}
+
+.user-block__login-link:focus {
+  opacity: 0.7;
+}
+
+.user-block__cart {
+  padding-left: 25px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.user-block__cart-link {
+  font-family: "Proxima Nova Condensed", sans-serif;
+  font-size: 15px;
+  line-height: 18px;
+  font-weight: 600;
+  color: #1f1f1f;
+  text-decoration: none;
+  border-bottom: 1px dashed #1f1f1f;
+  position: relative;
+  margin-right: 15px;
+}
+
+.user-block__cart-link::before {
+  position: absolute;
+  content: "";
+  width: 14px;
+  height: 15px;
+  top: 3px;
+  left: -25px;
+  background: url("../img/icon-cart.png") 50% 50% no-repeat;
+}
+
+.user-block__cart-link:hover {
+  opacity: 0.7;
+}
+
+.user-block__cart-link:focus {
+  opacity: 0.7;
+}
+
+.user-block__cart-counter {
+  font-family: "PT Serif Italic", sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 300;
+  color: #b98348;
+  padding-left: 5px;
+  border-left: 1px solid #b98348;
+}

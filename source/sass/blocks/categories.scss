@@ -1,0 +1,50 @@
+.categories {
+  padding-top: 34px;
+  padding-bottom: 30px;
+}
+
+.categories__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  flex-shrink: 0;
+  flex-grow: 0;
+}
+
+.categories__item {
+  margin-right: 8px;
+}
+
+.categories__item:last-of-type {
+  margin-right: 0;
+}
+
+.categories__link {
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 14px;
+  line-height: 44px;
+  font-weight: 700;
+  color: black;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: block;
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
+.categories__link--active {
+  outline: 2px solid #b98348;
+  color: #b98348;
+}
+
+.categories__link:hover {
+  outline: 2px solid #b98348;
+  color: #b98348;
+}
+
+.categories__link:focus {
+  outline: 2px solid #b98348;
+  color: #b98348;
+}

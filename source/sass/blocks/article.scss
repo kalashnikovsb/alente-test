@@ -1,0 +1,11 @@
+.article {
+  width: 328px;
+  height: 200px;
+  margin-right: 8px;
+  margin-bottom: 8px;
+  background: lightblue;
+}
+
+.article:nth-of-type(3n) {
+  margin-right: 0;
+}

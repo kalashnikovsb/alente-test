@@ -1,44 +1,76 @@
 .article {
   width: 328px;
-  box-sizing: border-box;
   margin-right: 8px;
   margin-bottom: 8px;
-  background: lightblue;
-  padding-left: 25px;
-  padding-right: 25px;
-  color: #ffffff;
-  text-align: center;
+  box-sizing: border-box;
   text-transform: uppercase;
-  padding-top: 145px;
-  padding-bottom: 77px;
+  background: black;
+  text-align: center;
 }
 
 .article:nth-of-type(3n) {
   margin-right: 0;
 }
 
-.article__link {
-  display: block;
+.article--product {
+  padding-top: 145px;
+  padding-bottom: 76px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
-.article__link--product {
+.article--box {
+  padding-top: 134px;
+  padding-bottom: 76px;
+  padding-left: 28px;
+  padding-right: 28px;
+}
+
+.article__text-box {
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 20px;
+  line-height: 22px;
+  font-weight: 700;
+  color: #ffffff;
+  background-color: rgba(181, 127, 69, 0.7);
+  text-transform: none;
+  display: block;
+  padding-top: 7px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.article__link {
   text-decoration: none;
-  text-transform: uppercase;
-  font-size: 22px;
-  line-height: 30px;
-  text-align: center;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.article__link:hover {
+  opacity: 0.7;
+}
+
+.article__link:focus {
+  opacity: 0.7;
 }
 
 .article__name {
-  font-family: "Proxima Nova", sans-serif;
-  font-weight: 700;
   display: block;
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 22px;
+  line-height: 30px;
+  font-weight: 700;
+  color: #ffffff;
 }
 
 .article__brand {
-  font-family: "Georgia", serif;
-  font-weight: 400;
   display: block;
+  font-family: "Georgia", serif;
+  font-size: 22px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #ffffff;
 }
 
 .article__text {
@@ -46,5 +78,155 @@
   font-size: 12px;
   line-height: 30px;
   font-weight: 600;
-  margin-top: 4px;
+  color: #ffffff;
+  text-decoration: none;
+  margin-top: 0;
+}
+
+.article--bottom {
+  padding-top: 105px;
+  padding-bottom: 47px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.article__link--bottom {
+  margin-bottom: 20px;
+}
+
+.article__name--bottom {
+  margin-bottom: 8px;
+}
+
+.article__brand--bottom {
+  font-family: "PT Serif", serif;
+  font-size: 22px;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+.article__brand--bottom:last-of-type {
+  line-height: 30px;
+}
+
+.article__brand--and {
+  text-transform: none;
+  position: relative;
+}
+
+.article__brand--and::before {
+  content: "";
+  position: absolute;
+  width: 40px;
+  height: 1px;
+  top: 10px;
+  left: 45px;
+  background: #ffffff;
+}
+
+.article__brand--and::after {
+  content: "";
+  position: absolute;
+  width: 40px;
+  height: 1px;
+  top: 10px;
+  right: 45px;
+  background: #ffffff;
+}
+
+.article--blog {
+  padding-bottom: 0;
+  padding-top: 104px;
+  position: relative;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.article--blog::before {
+  content: "Блог";
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 15px;
+  right: -5px;
+  width: 75px;
+  height: 30px;
+  background: #b98348;
+  font-family: "Georgia", serif;
+  font-style: italic;
+  font-size: 16px;
+  line-height: 18px;
+  color: #ffffff;
+  text-transform: none;
+}
+
+.article__link--blog {
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 22px;
+  line-height: 30px;
+  font-weight: 700;
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.article__date {
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-top: 0;
+  margin-bottom: 0;
+  position: relative;
+}
+
+.article__date::before {
+  content: "";
+  position: absolute;
+  height: 1px;
+  width: 209px;
+  top: -12px;
+  left: 50%;
+  margin-left: -105px;
+  right: 0;
+  background: #ffffff;
+}
+
+.article__date::after {
+  content: "";
+  position: absolute;
+  height: 1px;
+  width: 209px;
+  bottom: -12px;
+  left: 50%;
+  margin-left: -105px;
+  right: 0;
+  background: #ffffff;
+}
+
+.article--jacket {
+  background: url("../img/image-product1.jpg") 50% 50% no-repeat;
+}
+
+.article--jacket-vest {
+  background: url("../img/image-product2.jpg") 50% 50% no-repeat;
+}
+
+.article--shirt {
+  background: url("../img/image-product3.jpg") 50% 50% no-repeat;
+}
+
+.article--shoes {
+  background: url("../img/image-product4.jpg") 50% 50% no-repeat;
+}
+
+.article--cufflinks {
+  background: url("../img/image-product5.jpg") 50% 50% no-repeat;
+}
+
+.article--scarf {
+  background: url("../img/image-product6.jpg") 50% 50% no-repeat;
 }

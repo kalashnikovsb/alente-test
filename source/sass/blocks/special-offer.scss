@@ -1,7 +1,10 @@
 .special-offer {
-  background: red;
   margin-top: 6px;
+  margin-bottom: 0;
   padding-top: 70px;
+  padding-bottom: 118px;
+  background: url("../img/image-special-offer.jpg") 50% 50% repeat;
+  color: #ffffff;
 }
 
 .special-offer__center {
@@ -9,9 +12,10 @@
   margin: 0 auto;
 }
 
-// .special-offer__block {
-//
-// }
+.special-offer__block {
+  margin-bottom: 55px;
+  text-align: center;
+}
 
 .special-offer__text {
   margin-top: 0;
@@ -25,7 +29,6 @@
   line-height: 38px;
   font-weight: 700;
   font-style: italic;
-  color: #000000;
   text-decoration: none;
   text-transform: none;
 }
@@ -35,7 +38,7 @@
   font-size: 24px;
   line-height: 38px;
   font-weight: 600;
-  color: #000000;
+  color: #ffffff;
   text-transform: uppercase;
 }
 
@@ -44,6 +47,40 @@
   font-size: 24px;
   line-height: 38px;
   font-weight: 800;
-  color: #000000;
+  color: #ffffff;
   text-transform: uppercase;
+}
+
+.special-offer__text--small {
+  font-family: "Georgia", serif;
+  font-size: 20px;
+  line-height: 38px;
+  font-weight: 400;
+  font-style: italic;
+  color: #ffffff;
+  text-transform: none;
+  text-align: center;
+  position: relative;
+}
+
+.special-offer__text--small::before {
+  content: "";
+  position: absolute;
+  top: -20px;
+  left: 50%;
+  margin-left: -130px;
+  width: 261px;
+  height: 1px;
+  background: #ffffff;
+}
+
+.special-offer__text--small::after {
+  content: "";
+  position: absolute;
+  bottom: -40px;
+  left: 50%;
+  margin-left: -105px;
+  width: 210px;
+  height: 14px;
+  background: url("../img/snake.png") 50% 50% no-repeat;
 }

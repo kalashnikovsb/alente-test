@@ -1,0 +1,34 @@
+.brands {
+  padding-top: 46px;
+  padding-bottom: 42px;
+  background: url("../img/lines.png") 50% 50% repeat #1f1f1f;
+}
+
+.brands__list {
+  max-width: 1000px;
+  margin: 0 auto;
+  list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brands__link {
+  text-decoration: none;
+}
+
+.brands__link:hover {
+  opacity: 0.7;
+}
+
+.brands__link:focus {
+  opacity: 0.7;
+}
+
+.brands__image {
+  display: block;
+}

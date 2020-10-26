@@ -1,0 +1,165 @@
+.footer {
+  background: #f6f6f6;
+}
+
+.footer__wrap {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  box-sizing: border-box;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 2%;
+  padding-right: 0;
+}
+
+.footer__pages {
+  padding-top: 40px;
+  padding-bottom: 58px;
+  box-sizing: border-box;
+  width: 21%;
+}
+
+.footer__pages-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer__pages-item {
+  margin: 0;
+  padding: 0;
+}
+
+.footer__pages-link {
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 14px;
+  line-height: 30px;
+  font-weight: 600;
+  color: #b98348;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.footer__pages-link:hover,
+.footer__pages-link:focus {
+  opacity: 0.7;
+}
+
+.footer__catalog {
+  border-left: 1px solid #c3c3c3;
+  border-right: 1px solid #c3c3c3;
+  display: flex;
+  padding-top: 40px;
+  padding-bottom: 58px;
+  padding-left: 7%;
+  padding-right: 11%;
+}
+
+.footer__catalog-left {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-right: 110px;
+}
+
+.footer__catalog-right {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer__catalog-item {
+  margin: 0;
+  padding: 0;
+}
+
+.footer__catalog-link {
+  font-family: "Proxima Nova Condensed", sans-serif;
+  font-size: 15px;
+  line-height: 30px;
+  font-weight: 600;
+  color: #4c4c4c;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-bottom: 1px solid #cbcbcb;
+}
+
+.footer__catalog-link:hover,
+.footer__catalog-link:focus {
+  opacity: 0.7;
+}
+
+.footer__contacts {
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 400;
+  color: #111111;
+  text-transform: none;
+  padding-top: 28px;
+  padding-bottom: 40px;
+  padding-left: 3.5%;
+}
+
+.footer__title {
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 30px;
+  margin-bottom: 5px;
+}
+
+.footer__adress {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.footer__phone {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.footer__phone-link {
+  font-weight: 700;
+  color: #111111;
+  text-decoration: none;
+}
+
+.footer__phone-link:hover,
+.footer__phone-link:focus {
+  opacity: 0.7;
+}
+
+.footer__email {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.footer__email-link {
+  font-weight: 600;
+  color: #b98348;
+}
+
+.footer__email-link:hover,
+.footer__email-link:focus {
+  opacity: 0.7;
+}
+
+.footer__copyright {
+  border-top: 1px solid #c3c3c3;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.footer__copyright-text {
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 12px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #828181;
+  max-width: 950px;
+  margin: auto;
+  letter-spacing: 0.13em;
+}

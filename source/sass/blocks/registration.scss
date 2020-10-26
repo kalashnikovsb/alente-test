@@ -1,8 +1,9 @@
 .registration {
-  padding-top: 0;
-  padding-bottom: 0;
-  background: #cccccc;
+  padding-top: 60px;
+  padding-bottom: 75px;
+  border-bottom: 1px solid #ababab;
   text-align: center;
+  background: url("../img/lines2.png") 50% -1% repeat-x;
 }
 
 .registration__title {
@@ -12,6 +13,9 @@
   font-weight: 600;
   color: #1f1f1f;
   text-transform: uppercase;
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-bottom: 12px;
 }
 
 .registration__text {
@@ -20,4 +24,23 @@
   line-height: 24px;
   font-weight: 400;
   color: #1f1f1f;
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-top: 12px;
+  margin-bottom: 65px;
+}
+
+.registration__text:last-of-type {
+  position: relative;
+}
+
+.registration__text:last-of-type::before {
+  content: "";
+  position: absolute;
+  width: 166px;
+  height: 2px;
+  background: black;
+  bottom: -32px;
+  left: 50%;
+  margin-left: -83px;
 }

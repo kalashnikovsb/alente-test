@@ -54,3 +54,34 @@
 .socials__link--g {
   background: url("../img/icon-google.png") 50% 50% no-repeat;
 }
+
+
+.socials--footer {
+  margin-top: 32px;
+}
+
+.socials__item--footer {
+  border-top: 1px solid #b98348;
+  border-bottom: 1px solid #b98348;
+  border-left: 1px solid #b98348;
+}
+
+.socials__item--footer:last-of-type {
+  border-right: 1px solid #b98348;
+}
+
+.socials__link--footer--fb {
+  background: url("../img/icon-facebook-footer.png") 50% 50% no-repeat;
+}
+
+.socials__link--footer--vk {
+  background: url("../img/icon-vk-footer.png") 50% 50% no-repeat;
+}
+
+.socials__link--footer--tw {
+  background: url("../img/icon-twitter-footer.png") 50% 50% no-repeat;
+}
+
+.socials__link--footer--g {
+  background: url("../img/icon-google-footer.png") 50% 50% no-repeat;
+}

@@ -1,6 +1,143 @@
 .form {
   max-width: 1000px;
-  height: 500px;
   margin: 0 auto;
-  background: red;
+  background: #ffffff;
+  border: 2px solid black;
+  box-sizing: border-box;
+  text-align: left;
+  padding-top: 40px;
+  padding-bottom: 45px;
+}
+
+.form__wrap {
+  width: 620px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.form__fieldset {
+  display: flex;
+  flex-wrap: wrap;
+  border: none;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 22px;
+}
+
+.form__inner {
+  display: flex;
+  flex-direction: column;
+}
+
+.form__inner--date {
+  width: 165px;
+}
+
+.form__inner--time {
+  width: 110px;
+}
+
+.form__fieldset--date-time {
+  width: 304px;
+  justify-content: space-between;
+}
+
+
+.form__fieldset--adress {
+  width: 270px;
+}
+
+.form__fieldset--name {
+  width: 300px;
+}
+
+.form__fieldset--phone {
+  width: 270px;
+}
+
+.form__label {
+  font-family: "Georgia", serif;
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: 400;
+  font-style: italic;
+  color: #1f1f1f;
+  margin-bottom: 12px;
+}
+
+.form__input {
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 14px;
+  line-height: 38px;
+  font-weight: 400;
+  color: #b98348;
+  width: 100%;
+  border: 2px solid #1f1f1f;
+  border-radius: none;
+  box-sizing: border-box;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 30px;
+  padding-right: 30px;
+  position: relative;
+}
+
+.form__input:hover {
+  opacity: 0.7;
+}
+
+.form__input:focus {
+  opacity: 0.7;
+}
+
+.form__submit {
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 18px;
+  line-height: 38px;
+  font-weight: 700;
+  color: #ffffff;
+  text-transform: uppercase;
+  background: #b98348;
+  cursor: pointer;
+  box-shadow: inset 0 -3px 0 0 #8b5c28;
+  outline: none;
+  border: none;
+  width: 100%;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 10px;
+}
+
+.form__submit:hover {
+  opacity: 0.7;
+}
+
+.form__submit:focus {
+  opacity: 0.7;
+}
+
+.form__input--date {
+  text-align: center;
+  background: url("../img/icon-calendar.png") 10% 50% no-repeat, url("../img/icon-corner.png") 90% 50% no-repeat;
+}
+
+.form__input--time {
+  text-align: center;
+  background: url("../img/icon-time.png") 10% 50% no-repeat, url("../img/icon-corner.png") 90% 50% no-repeat;
+}
+
+.form__input--adress {
+  background: url("../img/icon-geo.png") 5% 50% no-repeat, url("../img/icon-corner.png") 95% 50% no-repeat;
+}
+
+.form__input--name {
+  background: url("../img/icon-man.png") 5% 50% no-repeat;
+}
+
+.form__input--phone {
+  background: url("../img/icon-smartphone.png") 5% 50% no-repeat;
 }
